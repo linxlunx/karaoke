@@ -1,6 +1,6 @@
 # Karaoke
 
-My karaoke system at home, only for research and educational purpose.
+My karaoke system at home, using [youtube-dl](https://github.com/ytdl-org/youtube-dl) and [spleeter](https://github.com/deezer/spleeter) to process the audio. **Please remember that it is only for research and educational purpose, use at your own risk!**
 
 ## Installation
 - Copy config.py.example to config.py
@@ -19,4 +19,4 @@ $ python index.py
 
 ## Notes
 - **It is for private use and research only, not for commercial use**
-- First extract needs one or two minutes to download the pretrained model.
+- First extract takes more time, to download the pretrained model.
