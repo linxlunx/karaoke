@@ -1,0 +1,2 @@
+SPLEETER_PATH = '/path/to/spleeter'
+YOUTUBE_DL_PATH = '/path/to/youtube-dl'

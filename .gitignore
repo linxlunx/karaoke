@@ -1,0 +1,10 @@
+__pycache__
+config.py
+pretrained_models
+*.pyc
+static/music/*
+!static/music/.keep
+static/extracted/*
+!static/extracted/.keep
+.idea
+.vscode

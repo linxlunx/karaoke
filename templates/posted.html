@@ -1,0 +1,32 @@
+<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" id="bootstrap-css">
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+<link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" id="bootstrap-css">
+
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+    </div>
+
+    <!-- Login Form -->
+    <br/>
+    <h2>Success!</h2><br/>
+    <strong>{{title}}</strong>
+    <br/>
+    <audio controls>
+      <source src="{{ extracted }}" type="audio/mpeg">
+    </audio>
+    <br/><br/>
+    <a href="{{url_for('main_index')}}"><< Back</a>
+
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+    </div>
+
+  </div>
+</div>
